@@ -28,12 +28,12 @@
 #         print (line,end=' ')
 #     print()
 
-for i in range(-3,4):
-    if i < 0:
-        pro = -i
-    else:
-        pro = i
-    print(' '*pro + '*'*(7-pro*2))
+# for i in range(-3,4):
+#     if i < 0:
+#         pro = -i
+#     else:
+#         pro = i
+#     print(' '*pro + '*'*(7-pro*2))
 
 for k in range(-3,4):
     if k < 0:
