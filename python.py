@@ -35,10 +35,24 @@
 #         pro = i
 #     print(' '*pro + '*'*(7-pro*2))
 
-for k in range(-3,4):
-    if k < 0:
-        print(' '*(-k)+'*'*(4+k))
-    elif k > 0:
-        print(' '*3+'*'*(4-k))
-    else:
-        print('*'*7)
+# for k in range(-3,4):
+#     if k < 0:
+#         print(' '*(-k)+'*'*(4+k))
+#     elif k > 0:
+#         print(' '*3+'*'*(4-k))
+#     else:
+#         print('*'*7)
+
+
+            # x = (x-1)+(x-2) , x>=1
+x = 0
+y = 1
+print (0)
+print (1)
+while True:
+    k = x+y
+    if k > 100:break
+    x = y
+    y = k
+    print(k)
+
