@@ -34,3 +34,11 @@ for i in range(-3,4):
     else:
         pro = i
     print(' '*pro + '*'*(7-pro*2))
+
+for k in range(-3,4):
+    if k < 0:
+        print(' '*(-k)+'*'*(4+k))
+    elif k > 0:
+        print(' '*3+'*'*(4-k))
+    else:
+        print('*'*7)
