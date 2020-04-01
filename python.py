@@ -79,8 +79,16 @@ for x in range(2,10,1):
     print('__________')
     print('x:',x,'y:',y)
     for y in range(2,x,1):  #此时跳过次循环，直接打印 x2- ，range（2,2,1）为合法的空的迭代器
-        print ('**** x1',x , y)
+        print ('**** x1:',x ,'y1', y)
         print('****', x % y == 0)
         if x % y == 0:
             break #用 x1 依次对 y 内的所有数取模，直到满足条件跳过并进入else打印x2-，否则进入 for y 循环
-    else: print('x2-',x)
+    else: 
+        print('x2:',x)
+
+# for i in range(5):
+#     if i == 2:
+#         print(i)
+#         # break
+# else:
+#     print(323)
